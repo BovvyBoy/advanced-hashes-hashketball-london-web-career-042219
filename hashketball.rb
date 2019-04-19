@@ -128,4 +128,35 @@ end
 end
 end
 
+def team_colors(team)
+  game_hash.each do |location, team_data|
+    team_data.each do |colors|
+      puts colors.to_s
+end
+end
+
+def team_names(location)
+  game_hash.each do |location, team_data|
+    team_data.each do |team_name|
+      puts team_name(location)
+end
+end
+
+end
+
+def player_numbers(number)
+  game_hash.each do |location, team_data|
+    team_data.each do |team_name|
+      puts team_name(team)
+end
+
+def player_stats(player)
+  game_hash.each do |location, team_data|
+    team_data.each do |player, attribute|
+end
+
+def big_shoe_rebounds(player, shoe_size)
+  game_hash.each do |location, team_data|
+    team_data.each do |player, attribute|
+end
 num_points_scored("Jeff Adrien")
