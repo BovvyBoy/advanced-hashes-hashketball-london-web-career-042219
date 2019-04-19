@@ -127,7 +127,7 @@ end
 end
 end
 end
-
+=begin
 def team_colors(team)
   game_hash.each do |location, team_data|
     team_data.each do |colors|
@@ -160,3 +160,4 @@ def big_shoe_rebounds(player, shoe_size)
     team_data.each do |player, attribute|
 end
 num_points_scored("Jeff Adrien")
+=end
